@@ -5,10 +5,10 @@
     
 }
 
-/* body{
+ body{
    overflow-x: hidden;
 
-}*/
+}
 .container{
     display: flex;
     background-color: black;
@@ -72,6 +72,9 @@
     width: 125px;
     list-style-type: none;
     text-align: center;
+    position: fixed;
+    position: fixed;
+    transform: translateY(100px);
 
 }
 
@@ -104,6 +107,14 @@
 
 #xbox:hover{
     background-color: green;
+}
+
+#mult{
+    background-color: orange;
+}
+
+#mult:hover{
+    background-color: darkorange;
 }
 
 
