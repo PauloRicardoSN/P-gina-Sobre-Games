@@ -5,10 +5,10 @@
     
 }
 
-/* body{
+ body{
    overflow-x: hidden;
 
-}*/
+}
 .container{
     display: flex;
     background-color: black;
@@ -72,6 +72,8 @@
     width: 125px;
     list-style-type: none;
     text-align: center;
+    position: fixed;
+    transform: translateY(100px);
 
 }
 
@@ -106,6 +108,14 @@
     background-color: green;
 }
 
+#mult{
+    background-color: orange;
+}
+
+#mult:hover{
+    background-color: darkorange;
+}
+
 
 .esquerda h4{
     text-align: center;
@@ -114,4 +124,9 @@
 }
 p{
     text-indent: 15px;
+}
+
+h4{
+    color: chartreuse;
+    text-align: center;
 }
