@@ -1,0 +1,117 @@
+*{
+    max-width: 100%;
+    margin: 0;
+    
+    
+}
+
+/* body{
+   overflow-x: hidden;
+
+}*/
+.container{
+    display: flex;
+    background-color: black;
+    color: white;
+    flex-wrap: wrap;
+    
+    
+    
+    
+}
+.topo{
+    background-image: url(imagens/fundoGamer.avif);
+    background-size: 100%;
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 200px;
+   
+    
+}
+.topo h1{
+    transform: translate(500px, 70px);
+    
+}
+
+.esquerda{
+    background-image: url(imagens/spider\ man.jpg);
+    background-repeat: no-repeat;
+    background-position-x: -900px;
+    background-position-y: 0px ;
+    width: 15%;
+    background-attachment: fixed;
+    background-size: 2000px;
+
+
+
+}
+.direita{
+    background-image: url(imagens/tlou.jpg);
+    background-repeat:no-repeat;
+    background-position-x: 950px;
+    background-position-y: -430px;
+    width: 15%;
+    background-attachment: fixed;
+
+
+   
+}
+.conteudo{
+    width: 70%;
+    box-sizing: border-box;
+    border: solid black 5px;
+    position: relative;
+    
+    
+    
+}
+.lista{
+
+    font-size: 25px;
+    width: 125px;
+    list-style-type: none;
+    text-align: center;
+
+}
+
+.lista li a{
+    text-decoration: none;
+    border: 1px solid black;
+    display: block;
+    border-radius: 2px 5px;
+    color: black;
+    }
+
+#nin{
+    background-color: crimson;
+}
+
+#nin:hover{
+    background-color:darkred;
+}
+
+#play{
+    background-color: aqua;
+}
+#play:hover{
+    background-color: blue;
+}
+
+#xbox{
+    background-color: greenyellow;
+}
+
+#xbox:hover{
+    background-color: green;
+}
+
+
+.esquerda h4{
+    text-align: center;
+    color: black;
+    
+}
+p{
+    text-indent: 15px;
+}
